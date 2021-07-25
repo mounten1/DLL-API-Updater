@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Updater", "API_Updater\API_Updater.csproj", "{FCC39DD7-E20D-4332-953A-FB5C332E6513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC39DD7-E20D-4332-953A-FB5C332E6513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC39DD7-E20D-4332-953A-FB5C332E6513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC39DD7-E20D-4332-953A-FB5C332E6513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC39DD7-E20D-4332-953A-FB5C332E6513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E31A2ECC-61BE-44FF-A779-DD4F254AF91E}
+	EndGlobalSection
+EndGlobal
