@@ -63,7 +63,7 @@ namespace API_Updater
         static void UpdateEasyExploits()
         {
             WebClient webclient = new WebClient();
-            string[] array = webclient.DownloadString("https://raw.githubusercontent.com/GreenMs02/Update/master/Module.txt").Split("\r\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            string[] array = webclient.DownloadString("https://easyexploits.com/Module").Split("\r\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
             string exploitdllname = "EasyExploitsDLL.dll";
             if (File.Exists(exploitdllname))
             {
